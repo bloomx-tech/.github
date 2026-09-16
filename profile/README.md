@@ -5,19 +5,18 @@
   </picture>
 </p>
 
-**BloomX is a Brazilian payments provider.** We build and run **CDX Pay**: the card terminals merchants sell with, and the platform behind them that prices, authorizes, captures and reconciles every sale.
+**BloomX is a Brazilian payments company.** We build the card terminals merchants sell with, and the platform behind them that prices, authorizes, captures and reconciles every sale.
 
 ### What we build
 
 - **Terminals.** Debit, credit and installment sales, Pix, and printed receipts on Android smart POS terminals.
 - **Payment platform.** The system of record that decides what each terminal may charge and keeps durable proof of what it charged.
-- **Partner integrations.** A partner's ERP creates a charge through our API and the terminal at the counter collects it. When the charge is a bank collection slip, we also pay it at the bank once the card is approved.
+- **Partner integrations.** Partners create charges from their own systems through our API, and the terminal at the counter collects them.
 - **Back office.** Merchant onboarding, terminal activation, rate tables, fleet health and reports.
 
-### For integration partners
+### Where we're going
 
-[**cdx-daje-integration**](https://github.com/bloomx-tech/cdx-daje-integration): integration manual and local sandbox for notary office ERPs (in Portuguese).
-
-### Contact
-
-[cdxpay.com.br](https://cdxpay.com.br) · [github@cdxpay.com.br](mailto:github@cdxpay.com.br)
+- **One name.** BloomX across terminals, SDK, APIs and back office.
+- **An SDK partners can embed.** BloomX payments inside partners' own terminal apps.
+- **Co-branded deployments.** Partner-branded experiences, powered by BloomX.
+- **More ways to pay.** More payment methods and acquirers behind one integration.
