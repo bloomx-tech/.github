@@ -5,7 +5,7 @@
   </picture>
 </p>
 
-**BloomX is a Brazilian payments company.** We build the card terminals merchants sell with, and the platform behind them that prices, authorizes, captures and reconciles every sale.
+**BloomX is a Brazilian payments company.** We build the card terminals merchants sell with, and the platform behind them that prices, authorizes, captures and reconciles every sale. One name runs through all of it: terminals, SDK, APIs and back office are BloomX.
 
 ### What we build
 
@@ -16,7 +16,6 @@
 
 ### Where we're going
 
-- **One name.** BloomX across terminals, SDK, APIs and back office.
 - **An SDK partners can embed.** BloomX payments inside partners' own terminal apps.
 - **Co-branded deployments.** Partner-branded experiences, powered by BloomX.
 - **More ways to pay.** More payment methods and acquirers behind one integration.
