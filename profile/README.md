@@ -14,6 +14,10 @@
 - **Partner integrations.** Partners create charges from their own systems through our API, and the terminal at the counter collects them.
 - **Back office.** Merchant onboarding, terminal activation, rate tables, fleet health and reports.
 
+### How we build
+
+- **A map of the system, kept with the code.** Every repository declares what each part does, what breaks if it changes, and who else depends on it. Engineers and AI agents work from the same map, and CI checks that it still matches the code.
+
 ### Where we're going
 
 - **An SDK partners can embed.** BloomX payments inside partners' own terminal apps.
