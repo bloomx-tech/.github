@@ -5,21 +5,21 @@
   </picture>
 </p>
 
-**BloomX is a Brazilian payments company.** We build the card terminals merchants sell with, and the platform behind them that prices, authorizes, captures and reconciles every sale. One name runs through all of it: terminals, SDK, APIs and back office are BloomX.
+**A BloomX é uma empresa de pagamentos no Brasil.** A BloomX constrói os terminais de cartão que o lojista usa para vender. A BloomX constrói a plataforma por trás do terminal. A plataforma precifica, autoriza, captura e concilia cada venda. Terminais, SDK, API e back office são BloomX.
 
-### What we build
+### O que a BloomX constrói
 
-- **Terminals.** Debit, credit and installment sales, Pix, and printed receipts on Android smart POS terminals.
-- **Payment platform.** The system of record that decides what each terminal may charge and keeps durable proof of what it charged.
-- **Partner integrations.** Partners create charges from their own systems through our API, and the terminal at the counter collects them.
-- **Back office.** Merchant onboarding, terminal activation, rate tables, fleet health and reports.
+- **Terminais.** O terminal aceita débito e crédito. O terminal aceita venda parcelada. O terminal aceita Pix. O terminal imprime o comprovante. O terminal é um Android smart POS.
+- **Plataforma de pagamento.** A plataforma é o registro da venda. A plataforma decide o que cada terminal pode cobrar. A plataforma guarda a prova durável do que o terminal cobrou.
+- **Integrações com parceiros.** O parceiro cria a cobrança no próprio sistema, pela API da BloomX. O terminal no balcão faz essa cobrança.
+- **Back office.** O back office cadastra o lojista. O back office ativa o terminal. O back office inclui a tabela de taxas, a saúde da frota e os relatórios.
 
-### How we build
+### Como a BloomX constrói
 
-- **A map of the system, kept with the code.** Every repository declares what each part does, what breaks if it changes, and who else depends on it. Engineers and AI agents work from the same map, and CI checks that it still matches the code.
+- **Mapa de capacidades no código.** Cada repositório declara o que cada parte faz. Cada repositório declara o que quebra se a parte muda. Cada repositório declara quem mais depende da parte. Os engenheiros e os agentes de IA partem do mesmo mapa. A CI confere se o mapa ainda corresponde ao código.
 
-### Where we're going
+### Para onde a BloomX vai
 
-- **An SDK partners can embed.** BloomX payments inside partners' own terminal apps.
-- **Co-branded deployments.** Partner-branded experiences, powered by BloomX.
-- **More ways to pay.** More payment methods and acquirers behind one integration.
+- **SDK que o parceiro embute.** O parceiro embute o SDK no próprio aplicativo de terminal. O pagamento BloomX fica nesse aplicativo.
+- **Implantação com a marca do parceiro.** A experiência usa a marca do parceiro. A BloomX sustenta a experiência.
+- **Mais meios de pagamento.** Uma integração cobre mais meios de pagamento. A mesma integração cobre mais adquirentes.
