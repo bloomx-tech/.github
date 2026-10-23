@@ -39,8 +39,8 @@ Tudo aqui é público, este arquivo também. Nada interno entra neste repositór
 
 ## Regras comuns
 
-- **Idioma.** Commit, PR e este guia em português do Brasil. O tipo do commit fica em inglês. A página
-  pública segue em inglês, como o texto atual.
+- **Idioma.** Commit, PR, este guia e a página pública (`profile/README.md`) ficam em português do
+  Brasil. O tipo do commit fica em inglês.
 - **Branches.** O padrão é `main`. Use os prefixos `feat/`, `fix/`, `chore/` e `docs/`. O merge publica
   a página na hora.
 - **Merge.** O repositório aceita merge commit, squash e rebase.
