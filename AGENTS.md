@@ -5,8 +5,17 @@
 
 1. **Pense antes.** Declare suposições e interpretações possíveis; sugira caminhos mais simples. Se houver dúvida, pare e pergunte.
 2. **Simplifique.** Faça o mínimo necessário, sem features especulativas, abstrações de uso único, flexibilidade não pedida ou erros impossíveis. Encurte o que puder.
-3. **Seja cirúrgico.** Toda linha alterada deve servir à tarefa. Siga o estilo local, não refatore o que funciona e remova só os órfãos que criou; reporte código morto preexistente.
-4. **Verifique.** Converta a tarefa em critérios testáveis e itere até passar. Validação começa pelo teste da entrada inválida; correção, pela reprodução. Em tarefas com vários passos, dê um plano curto com `verify:` por passo.
+3. **Seja cirúrgico.** Toda linha alterada deve servir à tarefa. Siga o estilo local e a densidade de comentários do código ao redor, não refatore o que funciona e remova só os órfãos que criou; reporte código morto preexistente.
+4. **Verifique.** Converta a tarefa em critérios testáveis e itere até passar. Validação começa pelo teste da entrada inválida; correção, pela reprodução. Em tarefas com vários passos, dê um plano curto com `verify:` por passo. Antes de dizer que terminou, confira o diff contra este arquivo.
+
+## Limites do agente
+
+1. **Não destrua trabalho.** Nunca rode `git reset --hard`, `git checkout -- .`, `git clean -f` nem `git push --force` sem pedido explícito. Um procedimento escrito neste arquivo conta como pedido.
+2. **Não afirme o que não conferiu.** Leia o código, a API ou o dado antes de afirmar. Se não leu, diga isso.
+3. **Não invente saída.** Se uma ferramenta falhou ou foi cancelada, diga isso e rode de novo.
+4. **Não mude um teste só para ele passar.** Corrija o código. Se o teste está errado, explique o motivo no pull request.
+5. **Preserve o texto.** Mantenha acentos, aspas curvas, travessões e reticências como estão. Nunca troque por ASCII.
+6. **Pare o laço.** Se a mesma tentativa falhar duas vezes, pare e relate o que achou.
 
 <a id="regras-de-escrita"></a>
 
